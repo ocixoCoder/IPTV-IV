@@ -36,7 +36,6 @@ jobs:
               while (url ~ /^#/ || url == "") { getline url }
 
               # Only keep streams whose URL ends in .m3u8
-              if (url !~ /\.m3u8(\?|$)/) { next }
 
               if (tolower(extinf) ~ /tvg-id="[^"]*\.?en"/ \
                || tolower(extinf) ~ /group-title="[^"]*(english|england|uk|united kingdom|usa|united states|us)[^"]*"/ \
