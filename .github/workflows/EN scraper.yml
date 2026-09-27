@@ -21,7 +21,7 @@ jobs:
         run: |
           set -e
 
-          M3U_URL="http://PUT-YOUR-URL-HERE/playlist.m3u"
+          M3U_URL="http://abc25.xyz/get.php?username=0231768061827&password=F439DE4966EC&type=m3u_plus&output=m3u8"
 
           {
             echo "#EXTM3U"
